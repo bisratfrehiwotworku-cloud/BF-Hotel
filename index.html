@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title data-i18n="text1">BF 5⭐  Hotel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+<section id="wellcome" class="page1 active">
+  <div class="welltxt">
+  <h1 data-i18n="text2">⭐⭐⭐⭐⭐</h1>
+  <h2 class="unique" data-i18n="text3">Welcome to BF 5 star Hotel!</h2>
+  <p data-i18n="text4">Explore to main page!</p>
+  </div>
+  <button class="bt1" onclick="round1('main')" data-i18n="text5">Explore</button>
+</section>
+
+
+<section id="main" class="page1">
+
+  <header class="head">
+  <h1 data-i18n="text6">BF International 5 Star Hotel</h1>
+  </header>
+  <button class="bt2" onclick="round1('wellcome')">🔰</button>   
+ <div class="drop">
+     <img id="menu" src="menu.png" alt="menu.png">
+
+   <div class="options">
+     <span class="langspan">
+<label for="language" data-i18n="text7">Language</label>
+<select value="no" onchange="changeLang(this.value)" id="language" value="">
+       <option value="en">English</option>
+       <option value="am">Amharic</option>
+     </select>
+     </span>
+   <button class="about" onclick="round1('about')" data-i18n="text14">About</button>
+   </div>
+ </div>
+  <p data-i18n="text8"> Welcome to our website BF Hotel is an international tourist attractive high quality standard Hotel with a lot of satisfactory services.</p>   
+<figure>
+  <img id="img2" src="recept.jpg" alt="and">
+</figure>
+<h2 data-i18n="text9">Navigate Service Details</h2>
+<div class="nav-detail">
+  <div class="service one" onclick="round1('room')">
+    <img id="img3" src="room.jpg" alt="noroom">
+    <h3 data-i18n="text10">Luxury Rooms</h3>
+  </div>
+  <div class="service two" onclick="round1('food')">    <img id="img4" src="food.jpg" alt="nofood">
+    <h3 data-i18n="text11">Food & Beverage</h3></div>
+  <div class="service three" onclick="round1('park')"> <img id="img5" src="park.jpg" alt="nopark">
+ <h3 data-i18n="text12">Transport & Logistics</h3>
+    </div>
+  <div class="service four" onclick="round1('pool')">
+    <img id="img6" src="pool.jpg" alt="nopool">
+    <h3 data-i18n="text13">Wellness & Leisure</h3>
+  </div>
+   </div>
+
+ <div class="contact">
+    <h4 data-i18n="text15">Contact us</h4>
+   <span class="info">
+   <h5 data-i18n="text16">Address: ......</h5>
+   <h5 data-i18n="text17">Phone number: ....</h5>
+   <h5 data-i18n="text18">Email: ....</h5>
+   </span>
+   <h6 data-i18n="text19">Developed by:<br> Bisrat Firehiwot Worku</h6>
+ </div>
+</section>
+
+<section id="room" class="page1">
+<div class="One Room">
+<button class="bt2" onclick="round1('main')">🔰</button>
+<h1 class="h1" data-i18n="text20">Luxury Rooms Catalog</h1>
+<img id="img7" src="bed.jpg" alt="and">
+<h2 data-i18n="text21">One Bed Room 2700 Birr / Week</h2>
+<h2 data-i18n="text22">Two Bed Room 4500 Birr / week</h2>
+<h2 data-i18n="text23">Three Bed Room 5800 Birr / week</h2>
+<h2 data-i18n="text24">VIP Room 8000 Birr / week</h2>
+<h2 data-i18n="text25">VVIP Room 12000 Birr / week</h2>
+</div> 
+</section>
+
+<section id="food" class="page1">
+<div class="One Food">
+<button class="bt2" onclick="round1('main')">🔰</button> 
+<h1 class="h1" data-i18n="text26">Food & Beverage</h1>
+<img id="img8" src="meal.jpg" alt="and">
+<p data-i18n="text27">In our hotel there are more than 60 traditional foods and 75 modern foods and 10 special foods.</p>
+<h3 data-i18n="text28">Check price</h3>
+
+ <input type="text" placeholder="Which item?" class="inp" required>
+ <button data-i18n="text29" class="check">Check</button>
+
+<span class="text">
+<h4 class="price" data-i18n="text30">Price:  ...</h4>
+</span>
+<ul>
+  <h2 data-i18n="text31">Traditionals</h2>
+  <li class="tradition" ></li>
+  <h2 data-i18n="text32">Moderns</h2>
+  <li class="modern"></li>
+  <h2 data-i18n="text34">Beverages</h2>
+  <li class="beverage"></li>
+
+</ul>
+</div>
+</section>
+
+<section id="park" class="page1">
+  <div class="One Park">
+<button class="bt2" onclick="round1('main')">🔰</button>
+ <h1 class="h1" data-i18n="text34">Transport & Logistics</h1>
+<img id="im1" src="car.jpg" alt="car"> 
+<p data-i18n="text35">Complimentary overnight parking for hotel guests. Secure daytime parking at 5 ETB / hour.</p>
+<img id="im2" src="cycle.jpg" alt="cycle">
+<p data-i18n="text36"> There are many bicycles ready to rent for customers at 50 ETB / hour.  Also cars at 300 ETB / day.</p>
+<img id="im3" src="car2.jpg" alt="car2">
+<p data-i18n="text37"> Airport terminal pickup & drop-off service available at 9.06 ETB / km (40% discount applied!).</p>
+  </div>
+</section>
+
+<section id="pool" class="page1">
+<div class="One Pool">
+<button class="bt2" onclick="round1('main')">🔰</button>    
+<h1 class="h1" data-i18n="text38">Wellness & Leisure </h1>
+<img id="im4" src="fit.jpg" alt="fit"> 
+<p data-i18n="text39">Our hotel features two fully-equipped gyms with state-of-the-art fitness equipment. Access is complimentary for hotel guests, or 500 ETB for a 2-hour day pass for non-guests.</p>
+<img id="im5" src="swim.jpg" alt="swim"> 
+<p data-i18n="text40">Each floor has its own private swimming pool.</p>
+<img id="im6" src="massage.jpg" alt="massage"> 
+<p data-i18n="text41">Enjoy our Spa, Massage, Sauna, and Moroccan Bath services with a 30% discount for hotel guests. Prices range from 400 to 3500 ETB.</p>
+<img id="im7" src="baby.jpg" alt="baby"> 
+<p data-i18n="text42">We have also Day care , kids club and Baby sitting with suitable environment and Baby care professionals.</p>
+</div>
+</section>
+<section id="about" class="page1">
+  <div class="One About">
+    <button class="bt2" onclick="round1('main')">🔰</button>   
+<h1 class="h1" data-i18n="text43">About page</h1>
+<p>
+  <span data-i18n="text44">
+Project Overview & Disclaimer
+  </span> 
+<br><br> 
+<span data-i18n="text45">
+Welcome to the BF 5★ Hotel web application demo!
+</span>
+
+<br><br>
+<span data-i18n="text46">
+Purpose: Built to demonstrate modern web development techniques, full mobile responsiveness, and client-side data handling without external frameworks.
+</span>
+
+<br><br>
+<span data-i18n="text47">
+Interactive Features: Features smooth custom text animations, horizontal scrolling cards, and dynamic single-page routing. 
+</span>
+<br><br>
+<span data-i18n="text48">
+Functionality: All prices, room details, and service listings are sample data created to test user experience and UI responsiveness.
+</span>
+<br><br>
+<span data-i18n="text49">
+Creator Credit: Entirely designed, animated, and developed by <span class="bisre">Bisrat Firehiwot Worku</span>.  All rights reserved.
+</span>
+</p>
+
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+
+  </html>
