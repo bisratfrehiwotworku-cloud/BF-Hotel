@@ -43,8 +43,9 @@ p, section:nth-of-type(2) h6{
 }
 .One{
   border:10px solid skyblue;
-  max-width:710px;
-  border:none;
+  width:700px;
+  max-width:950px;
+  margin:0 auto;
   min-height:1800px;
   height :auto;
   height:80px; 
@@ -66,7 +67,7 @@ p, section:nth-of-type(2) h6{
 .page1{
   display:none;
   width:100%;
-  max-width:800px;
+  max-width:900px;
   margin:0 auto;
   height:100vh;
 }
@@ -76,8 +77,8 @@ p, section:nth-of-type(2) h6{
 
 /*Section one Home page*/
 section:nth-of-type(1){
-  max-width:100%;
-  min-width:100%;
+  width:100%;
+  max-width:950px;
   min-height:1370px;
   height:auto;
   background-image:url("hotel.jpg");
@@ -88,7 +89,6 @@ section:nth-of-type(1){
 .welltxt{
   border:1px sold skyblue;
   width:720px;
-  width:auto;
   max-width:800px;
   margin:0 auto;
   height:490px;
@@ -171,7 +171,7 @@ section:nth-of-type(2){
 section:nth-of-type(2) .head{
   border:1px soid skyblue;
   width:100%;
-  max-width:800px;
+  max-width:950px;
   height:120px;
   position:fixed;
   padding-top:40px;
@@ -276,7 +276,7 @@ section:nth-of-type(2) h2{
 section:nth-of-type(2) .nav-detail{
   border:5px sold skyblue;
   width:670px;
-  max-width:780px;
+  max-width:860px;
   overflow:auto;
   height:620px;
   padding:20px;
@@ -331,7 +331,7 @@ section:nth-of-type(2) h3{
 section:nth-of-type(2) .contact{
   border:5px soid skyblue;
 width:720px;
-max-width:800px;
+max-width:950px;
 display:inline-block;
 height:800px;
 padding:40px;
@@ -367,7 +367,7 @@ section:nth-of-type(2) h6{
 }
 /*Section 3 room page*/
 #img7,#img8{
-  min-width:520px;
+  width:450px;
   max-width:520px;
   height :300px;
   border-radius:10px;
@@ -486,7 +486,7 @@ section:nth-of-type(4) .check:active{
 
 /*Section 5 transport page*/
 #im1,#im2,#im3,#im4,#im5,#im6,#im7{
-  min-width:520px;
+  width:400px;
   max-width:520px;
   height :200px;
   margin:50px;
