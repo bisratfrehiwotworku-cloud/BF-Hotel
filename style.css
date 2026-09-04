@@ -18,7 +18,10 @@ img {
   height: auto;
 }
 
-
+p{
+ width:600px;
+ max-width:700px;
+}
 p, section:nth-of-type(2) h6{
     text-indent:70px;
   }
@@ -167,7 +170,8 @@ section:nth-of-type(2){
 }
 section:nth-of-type(2) .head{
   border:1px soid skyblue;
-  width:100wh;
+  width:100%;
+  max-width:800px;
   height:120px;
   position:fixed;
   padding-top:40px;
@@ -251,8 +255,8 @@ section:nth-of-type(2) p{
   top:190px;
 }
 #img2{
-  min-width:650px;
-  max-width:650px; 
+  width:650px;
+  max-width:770px; 
   height :320px;
   position: absolute;
   top:550px;
@@ -271,7 +275,8 @@ section:nth-of-type(2) h2{
 }
 section:nth-of-type(2) .nav-detail{
   border:5px sold skyblue;
-  max-width:670px;
+  width:670px;
+  max-width:780px;
   overflow:auto;
   height:620px;
   padding:20px;
@@ -326,6 +331,7 @@ section:nth-of-type(2) h3{
 section:nth-of-type(2) .contact{
   border:5px soid skyblue;
 width:720px;
+max-width:800px;
 display:inline-block;
 height:800px;
 padding:40px;
@@ -613,4 +619,5 @@ select{
     overflow-x: visible;              
   }
 
-}
+  }
+  
