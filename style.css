@@ -8,10 +8,13 @@ body {
   user-select:none;
   overflow-x: hidden;
   width:100%;
+  max-width:800px;
+  margin:0 auto;
+  max-width:800px;
 }
 
 img {
-  max-width:100%;
+  width:100%;
   height: auto;
 }
 
@@ -60,6 +63,8 @@ p, section:nth-of-type(2) h6{
 .page1{
   display:none;
   width:100%;
+  max-width:800px;
+  margin:0 auto;
   height:100vh;
 }
 .page1.active{
@@ -70,6 +75,8 @@ p, section:nth-of-type(2) h6{
 section:nth-of-type(1){
   max-width:100%;
   min-width:100%;
+  min-height:1370px;
+  height:auto;
   background-image:url("hotel.jpg");
   background-repeat:no-repeat;
   background-size:cover;
@@ -78,6 +85,9 @@ section:nth-of-type(1){
 .welltxt{
   border:1px sold skyblue;
   width:720px;
+  width:auto;
+  max-width:800px;
+  margin:0 auto;
   height:490px;
   padding :10px;
   display :flex;
@@ -603,4 +613,4 @@ select{
     overflow-x: visible;              
   }
 
-  }
+}
