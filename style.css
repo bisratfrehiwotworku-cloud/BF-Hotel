@@ -1,21 +1,21 @@
-p, h1, h2, h3, h4, h5, h6,section, input, button {
-  box-sizing: border-box;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
-
 body {
   word-wrap: break-word;
   user-select:none;
-  overflow-wrap: break-word;
+  overflow-x: hidden;
+  width:100%;
 }
 
 img {
-  max-width: 100%;
+  max-width:100%;
   height: auto;
 }
 
-*{
-  margin:0;
-}
+
 p, section:nth-of-type(2) h6{
     text-indent:70px;
   }
@@ -68,13 +68,16 @@ p, section:nth-of-type(2) h6{
 
 /*Section one Home page*/
 section:nth-of-type(1){
+  max-width:100%;
+  min-width:100%;
   background-image:url("hotel.jpg");
   background-repeat:no-repeat;
   background-size:cover;
+  object-fit:cover;
 }
 .welltxt{
   border:1px sold skyblue;
-  width:700px;
+  width:720px;
   height:490px;
   padding :10px;
   display :flex;
@@ -155,7 +158,7 @@ section:nth-of-type(2){
 section:nth-of-type(2) .head{
   border:1px soid skyblue;
   width:100wh;
-  height:80px;
+  height:120px;
   position:fixed;
   padding-top:40px;
   font-size:20px;
@@ -238,7 +241,8 @@ section:nth-of-type(2) p{
   top:190px;
 }
 #img2{
-  width:650px;
+  min-width:650px;
+  max-width:650px; 
   height :320px;
   position: absolute;
   top:550px;
@@ -257,9 +261,9 @@ section:nth-of-type(2) h2{
 }
 section:nth-of-type(2) .nav-detail{
   border:5px sold skyblue;
-  max-width:620px;
+  max-width:670px;
   overflow:auto;
-  height:600px;
+  height:620px;
   padding:20px;
   font-size:35px;
   color: #345794;
@@ -285,7 +289,7 @@ section:nth-of-type(2) .service{
   color: white;
   font-weight:400;
   position:relative;
-  top:80px;
+  top:50px;
   left:30px;
   right:30px;
   font-family:fantasy;
@@ -294,7 +298,8 @@ section:nth-of-type(2) .service{
   background-color:#7E94B9;
 }
 #img3,#img4,#img5,#img6{
-  width:470px;
+  min-width:470px;
+  max-width:470px;
   height :300px;
   border-radius:10px;
 }
@@ -310,7 +315,7 @@ section:nth-of-type(2) h3{
 }
 section:nth-of-type(2) .contact{
   border:5px soid skyblue;
-width:640px;
+width:720px;
 display:inline-block;
 height:800px;
 padding:40px;
@@ -346,7 +351,8 @@ section:nth-of-type(2) h6{
 }
 /*Section 3 room page*/
 #img7,#img8{
-  width:520px;
+  min-width:520px;
+  max-width:520px;
   height :300px;
   border-radius:10px;
   position:relative;
@@ -464,7 +470,8 @@ section:nth-of-type(4) .check:active{
 
 /*Section 5 transport page*/
 #im1,#im2,#im3,#im4,#im5,#im6,#im7{
-  width:520px;
+  min-width:520px;
+  max-width:520px;
   height :200px;
   margin:50px;
   border-radius:10px;
@@ -596,4 +603,4 @@ select{
     overflow-x: visible;              
   }
 
-}
+  }
