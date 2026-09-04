@@ -44,7 +44,7 @@ p, section:nth-of-type(2) h6{
 .One{
   border:10px solid skyblue;
   width:700px;
-  max-width:950px;
+  max-width:1200px;
   margin:0 auto;
   min-height:1800px;
   height :auto;
@@ -67,9 +67,10 @@ p, section:nth-of-type(2) h6{
 .page1{
   display:none;
   width:100%;
-  max-width:900px;
+  max-width:1200px;
   margin:0 auto;
-  height:100vh;
+  min-height:100vh;
+  height:auto;
 }
 .page1.active{
   display:block;
@@ -621,3 +622,4 @@ select{
   }
 
   }
+  
