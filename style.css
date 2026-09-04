@@ -6,9 +6,10 @@
 body {
   word-wrap: break-word;
   user-select:none;
-  overflow-x: hidden;
   width:100%;
-  max-width:800px;
+  max-width:1200px;
+  min-height:100vh;
+  height:auto;
   margin:0 auto;
   max-width:800px;
 }
@@ -172,7 +173,7 @@ section:nth-of-type(2){
 section:nth-of-type(2) .head{
   border:1px soid skyblue;
   width:100%;
-  max-width:950px;
+  max-width:1200px;
   height:120px;
   position:fixed;
   padding-top:40px;
@@ -217,8 +218,8 @@ section:nth-of-type(2) .bt2{
 }
 section:nth-of-type(2) .about{
   border:1px solid skyblue;
-  width:100%;
-  max-width:950px;
+  min-width:100%;
+  max-width:1500px;
   border:none;
   height:70px;
   font-size:30px;
@@ -333,7 +334,7 @@ section:nth-of-type(2) h3{
 section:nth-of-type(2) .contact{
   border:5px soid skyblue;
 width:720px;
-max-width:950px;
+max-width:1200px;
 display:inline-block;
 height:800px;
 padding:40px;
