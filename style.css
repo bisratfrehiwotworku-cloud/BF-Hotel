@@ -2,32 +2,37 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+  border:none;
 }
 body {
-  word-wrap: break-word;
+  border:none;
   user-select:none;
+  min-width:100px;
+  max-width:1000px;
   width:100%;
-  max-width:1200px;
-  min-height:100vh;
-  height:auto;
+  padding:10px;
+  place-items:center;
+  height:1300px;
+  
   margin:0 auto;
-  max-width:800px;
 }
 
 img {
-  width:100%;
+  min-width:100%;
+  width:auto;
   height: auto;
 }
 
 p{
- width:600px;
- max-width:700px;
+  border:none;
+ min-width:600px;
+ max-width:2300px;
+ position : relative;
 }
 p, section:nth-of-type(2) h6{
     text-indent:70px;
   }
 .bt2{
-  border:1px solid skyblue;
   border:none;
   width:160px;
   height:100px;
@@ -43,13 +48,18 @@ p, section:nth-of-type(2) h6{
   left:10px;
 }
 .One{
-  border:10px solid skyblue;
-  width:700px;
-  max-width:1200px;
+  border:none;
+  min-width:700px;
+  max-width:3200px;
+  width:100%;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
   margin:0 auto;
   min-height:1800px;
-  height :auto;
-  height:80px; 
+  height :auto; 
   padding:20px;
   place-items:center;
   display :flex;
@@ -66,9 +76,16 @@ p, section:nth-of-type(2) h6{
 }
 /* Round one page exchange*/
 .page1{
+  border:none;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
   display:none;
   width:100%;
-  max-width:1200px;
+  padding:0;
+  max-width:4200px;
   margin:0 auto;
   min-height:100vh;
   height:auto;
@@ -79,9 +96,15 @@ p, section:nth-of-type(2) h6{
 
 /*Section one Home page*/
 section:nth-of-type(1){
-  width:720px;
-  max-width:950px;
-  min-height:1370px;
+  border:none;
+  min-width:720px;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width:auto;
+  min-height:1390px;
   height:auto;
   background-image:url("hotel.jpg");
   background-repeat:no-repeat;
@@ -90,10 +113,10 @@ section:nth-of-type(1){
 }
 .welltxt{
   border:1px sold skyblue;
-  width:720px;
-  max-width:800px;
+  min-width:720px;
+  max-width:auto;
   margin:0 auto;
-  height:490px;
+  min-height:540px;
   padding :10px;
   display :flex;
   gap:30px;
@@ -126,7 +149,7 @@ section:nth-of-type(1) p{
 }
 
 .bt1{
-  border:1px solid skyblue;
+  border:none;
   width:220px;
   height:80px;
   font-size:30px;
@@ -164,16 +187,22 @@ section:nth-of-type(1) p{
 
 /*Section two main page*/
 section:nth-of-type(2){
-  max-width:720px;
-  min-height:100vh;
-  height:auto;
+  border:none;
+  min-width:900px;
+  max-width:3200px;
+  width:100%;
+  height:100vh;
+  min-height:900px; 
+  max-height:1400px;
   background-color:white;
   padding:0;
 }
 section:nth-of-type(2) .head{
-  border:1px soid skyblue;
+  border:none;
+  display:inline-block;
+  min-width:100px;
+  max-width:9000px;
   width:100%;
-  max-width:1200px;
   height:120px;
   position:fixed;
   padding-top:40px;
@@ -182,8 +211,6 @@ section:nth-of-type(2) .head{
   overflow:hidden;
   font-weight:bold;
   font-family:fantasy;
-  display :flex;
-  flex-direction:row;
   background-image: linear-gradient(to bottom,#061732,#103981,#637FAF,#BBC9E2);
 }
 section:nth-of-type(2) h1{
@@ -247,8 +274,8 @@ section:nth-of-type(2) .about:hover{
   }
 }
 section:nth-of-type(2) p{
-  border:1px soid skyblue;
-  width:670px;
+  border:none;
+  min-width:670px;
   padding:20px;
   font-size:35px;
   color: #345794;
@@ -257,17 +284,21 @@ section:nth-of-type(2) p{
   position: absolute;
   top:190px;
 }
-#img2{
-  width:650px;
-  max-width:1300px; 
-  height :320px;
-  position: absolute;
-  top:550px;
-  left:30px;
-  border-radius:20px;
+
+#img2 {
+    border: none;
+    position: absolute;
+    top: 550px;
+    left: 30px;
+    height: 320px;
+    width: 90%;
+    min-width: 500px;
+    max-width: 1300px;
+    border-radius:20px;
 }
+
 section:nth-of-type(2) h2{
-  border:1px soid skyblue;
+  border:none;
   font-size:40px;
   color: #345794;
   font-weight:bold;
@@ -277,9 +308,10 @@ section:nth-of-type(2) h2{
   left:30px;
 }
 section:nth-of-type(2) .nav-detail{
-  border:5px sold skyblue;
-  width:650px;
-  max-width:1400px;
+  border:none;
+  min-width:500px;
+  max-width:2050px;
+  width:96%;
   overflow:auto;
   height:620px;
   padding:20px;
@@ -287,18 +319,22 @@ section:nth-of-type(2) .nav-detail{
   color: #345794;
   font-weight:400;
   font-family:fantasy;
-  position:absolute;
+  position:relative;
   top:1100px;
-  left:20px;
+  left:10px;
+  right:70px;
   gap:30px;
   padding-right:30px;
   border-radius:30px;
   display:flex;
+  flex-shrink:0;
   background-image: linear-gradient(to bottom,#061732 30%,#103981,#637FAF,#BBC9E2);
 }
 section:nth-of-type(2) .service{
   border:5px sold skyblue;
   min-width:450px;
+  max-width:900px;
+  width:100%;
   box-sizing:content-box;
   display:inline-block;
   height:500px;
@@ -332,19 +368,19 @@ section:nth-of-type(2) h3{
   top:50px;
 }
 section:nth-of-type(2) .contact{
-  border:5px soid skyblue;
-width:720px;
-max-width:1200px;
-display:inline-block;
+  border:5px soli red;
+min-width:720px;
+max-width:4000px;
+width:100%;
 height:800px;
 padding:40px;
 font-size:35px;
 color: white;
 font-weight:400;
 position:relative;
-top:1900px;
-left:0;
-right:0;
+top:1259px;
+left:-3px;
+right:-3px;
 font-family:fantasy;
 background-image: linear-gradient(to bottom,#061732 30%,#103981,#637FAF,#BBC9E2);
 }
@@ -376,6 +412,11 @@ section:nth-of-type(2) h6{
   border-radius:10px;
   position:relative;
   top:130px;
+}
+section:nth-of-type(3){
+  border:none;
+min-width:720px;
+max-width:4200px;
 }
 section:nth-of-type(3) h2{
   position :relative;
@@ -469,7 +510,7 @@ section:nth-of-type(4) .inp{
 }
 section:nth-of-type(4) .check{
   position: relative;
-  border:1px solid black;
+  border:none;
   border-radius:20px;
   background-color:black;
   width:150px;
@@ -547,7 +588,7 @@ section:nth-of-type(7) p{
   color:gold;
 }
 .drop{
-border:1px soid black;
+border:none;
 width:80px;
 backdrop-filter:blur(20px);
 height:116px;
@@ -607,15 +648,32 @@ select{
 /*Media Query*/
 
 @media screen and (min-width: 1024px) {
-
-  body {
-    font-size: 18px; 
-  }
-
-  h1, h2, .welcome-heading {
-    font-size: 2.5rem; 
-  }
-
+  
+section:nth-of-type(1) h2{
+  font-size:80px;
+  position:relative;
+  top:700px;
+}
+section:nth-of-type(1) p{
+  font-size:80px;
+  position:relative;
+}
+section:nth-of-type(1) h1{
+  font-size:120px;
+  position:relative;
+  top:100px;
+} 
+section:nth-of-type(1) button {
+  width:400px;
+  height:200px;
+  font-size:70px;
+  position:relative;
+  top:70px;
+  left:450px;
+}
+.welltxt{
+  height:1200px;
+}
   .cards-container-class {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
