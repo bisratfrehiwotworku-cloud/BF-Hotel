@@ -217,6 +217,7 @@ section:nth-of-type(2) .bt2{
 section:nth-of-type(2) .about{
   border:1px solid skyblue;
   width:100%;
+  max-width:950px;
   border:none;
   height:70px;
   font-size:30px;
@@ -256,7 +257,7 @@ section:nth-of-type(2) p{
 }
 #img2{
   width:650px;
-  max-width:950px; 
+  max-width:1300px; 
   height :320px;
   position: absolute;
   top:550px;
@@ -275,8 +276,8 @@ section:nth-of-type(2) h2{
 }
 section:nth-of-type(2) .nav-detail{
   border:5px sold skyblue;
-  width:670px;
-  max-width:950px;
+  width:650px;
+  max-width:1400px;
   overflow:auto;
   height:620px;
   padding:20px;
@@ -620,4 +621,3 @@ select{
   }
 
   }
-  
