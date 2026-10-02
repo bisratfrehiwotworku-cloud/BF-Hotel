@@ -4,15 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<title data-i18n="text1">BF 5⭐  Hotel</title>
+  <title></title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<main>
   
-<section id="wellcome" class="page1 active">
+  <section id="wellcome" class="page1 active">
   <div class="welltxt">
   <h1 data-i18n="text2">⭐⭐⭐⭐⭐</h1>
   <h2 class="unique" data-i18n="text3">Welcome to BF 5 star Hotel!</h2>
@@ -21,17 +20,15 @@
   <button class="bt1" onclick="round1('main')" data-i18n="text5">Explore</button>
 </section>
 
-
 <section id="main" class="page1">
-
+<div class="upheader">
   <header class="head">
-  <h1 data-i18n="text6">BF International 5 Star Hotel</h1>
-  </header>
   <button class="bt2" onclick="round1('wellcome')">🔰</button>   
- <div class="drop">
+  <h1 data-i18n="text6">BF International 5 Star Hotel</h1>
+    </header>
+   <div class="drop">
      <img id="menu" src="menu.png" alt="menu.png">
-
-   <div class="options">
+ <div class="options">
      <span class="langspan">
 <label for="language" data-i18n="text7">Language</label>
 <select value="no" onchange="changeLang(this.value)" id="language" value="">
@@ -42,10 +39,11 @@
    <button class="about" onclick="round1('about')" data-i18n="text14">About</button>
    </div>
  </div>
+
+</div>
   <p data-i18n="text8"> Welcome to our website BF Hotel is an international tourist attractive high quality standard Hotel with a lot of satisfactory services.</p>   
-<figure>
+
   <img id="img2" src="recept.jpg" alt="and">
-</figure>
 <h2 data-i18n="text9">Navigate Service Details</h2>
 <div class="nav-detail">
   <div class="service one" onclick="round1('room')">
@@ -73,7 +71,6 @@
    <h6 data-i18n="text19">Developed by:<br> Bisrat Firehiwot Worku</h6>
  </div>
 </section>
-
 <section id="room" class="page1">
 <div class="One Room">
 <button class="bt2" onclick="round1('main')">🔰</button>
@@ -86,7 +83,6 @@
 <h2 data-i18n="text25">VVIP Room 12000 Birr / week</h2>
 </div> 
 </section>
-
 <section id="food" class="page1">
 <div class="One Food">
 <button class="bt2" onclick="round1('main')">🔰</button> 
@@ -106,13 +102,12 @@
   <li class="tradition" ></li>
   <h2 data-i18n="text32">Moderns</h2>
   <li class="modern"></li>
-  <h2 data-i18n="text34">Beverages</h2>
+  <h2 data-i18n="text33">Beverages</h2>
   <li class="beverage"></li>
 
 </ul>
 </div>
 </section>
-
 <section id="park" class="page1">
   <div class="One Park">
 <button class="bt2" onclick="round1('main')">🔰</button>
@@ -125,7 +120,6 @@
 <p data-i18n="text37"> Airport terminal pickup & drop-off service available at 9.06 ETB / km (40% discount applied!).</p>
   </div>
 </section>
-
 <section id="pool" class="page1">
 <div class="One Pool">
 <button class="bt2" onclick="round1('main')">🔰</button>    
@@ -174,7 +168,8 @@ Creator Credit: Entirely designed, animated, and developed by <span class="bisre
 
   </div>
 </section>
+</main>
 <script src="script.js"></script>
 </body>
 
-  </html>
+</html>
