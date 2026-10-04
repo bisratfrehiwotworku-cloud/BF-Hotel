@@ -50,7 +50,7 @@ const language = {
     text5:'Explore',
     text6:'BF International 5 Star Hotel',
     text7:'Language',
-    text8:'Wellcome to our website BF Hotel is an international tourist attractive high quality standard Hotel with a lot of satisfactory services.',
+    text8:'Welcome to our website BF Hotel is an international tourist attractive high quality standard Hotel with a lot of satisfactory services.',
     text9:'Navigate Service Details',
     text10:'Luxury Rooms',
     text11:'Food & Beverage',
